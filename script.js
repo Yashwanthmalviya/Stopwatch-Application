@@ -4,8 +4,8 @@ let elapsedTime = 0;
 let timerInterval;
 let running = false;
 
-const display = document.getElementById("display");
-const startStopBtn = document.getElementById("startStopBtn");
+const display = document.getElementById("display");     //for displaying the time
+const startStopBtn = document.getElementById("startStopBtn");   //
 const lapsContainer = document.getElementById("laps");
 
 function startStop() {
